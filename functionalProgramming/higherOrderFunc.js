@@ -45,4 +45,4 @@ let inDollars = transactions.forEach((n) => {
 });  
 
 
-console.log(inDollars);
+// console.log(inDollars);

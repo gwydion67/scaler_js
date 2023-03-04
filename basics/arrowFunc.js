@@ -14,3 +14,4 @@ let test3 = a => {
 
 let test4 = (a,b) => console.log(a+b);
 
+test3(2);

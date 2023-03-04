@@ -8,33 +8,6 @@
 
 // if the function being referenced is a regular function thise reference the global object
 
-// to use strict mode in js add <'use strict'> on top of the js code
-
-// in non strict mode in node js this keyword in global scope gives an empty object
-
-console.log(this);
-
-// inside a function it points the global object
- 
-function displayThis(){
-    console.log(this);
-}
-
-// inside a function of an object this points the object itself
-
-displayThis();
-
-let myobj = {
-    name : 'abhishek',
-    age : 20, 
-
-    myfn : function (){
-        console.log(this);
-    }
-}
-
-myobj.myfn();
-
 
 // inside a function inside a function inside an object this point the global object
 

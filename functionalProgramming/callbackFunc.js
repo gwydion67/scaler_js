@@ -1,5 +1,5 @@
 const prompt=require("prompt-sync")({sigint:true}); 
-
+//calback is a function that is passed to another functions
 function printFirstName(firstname){
     console.log(firstname);
 }

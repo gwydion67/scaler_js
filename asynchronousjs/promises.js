@@ -13,13 +13,14 @@ let myPromise = new Promise(function(resolve , reject){
 })
 
 console.log(myPromise);
-
+//method 1
 myPromise.then(function(result){
     console.log(result);
 }).catch(function(error){
     console.log(error);
 })
 
+//method 2
 
 myPromise.then(function(result){
     console.log(result);
